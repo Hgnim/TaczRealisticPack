@@ -11,15 +11,15 @@
   "bullet": {
     "life": 0.75,
     "bullet_amount": 1,
-    "damage": 8,
+    "damage": 17,
     "tracer_count_interval": 0,
     "extra_damage": {
-      "armor_ignore": 0.25,
-      "head_shot_multiplier": 1.35,
+      "armor_ignore": 1,
+      "head_shot_multiplier": 1.8,
       "damage_adjust": [
-        {"distance": 35, "damage": 8},
-        {"distance": 70, "damage": 6.5},
-        {"distance": "infinite", "damage": 6}
+        {"distance": 35, "damage": 17},
+        {"distance": 70, "damage": 16},
+        {"distance": "infinite", "damage": 15}
       ]
     },
     "speed": 305,
@@ -27,7 +27,7 @@
     "knockback": 0,
     "friction": 0.015,
     "ignite": false,
-    "pierce": 1
+    "pierce": 4
   },
   "reload": {
     "type": "magazine",

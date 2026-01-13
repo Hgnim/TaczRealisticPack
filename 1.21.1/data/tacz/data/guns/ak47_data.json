@@ -44,22 +44,22 @@
     // 用于霰弹，默认为 1，每发的伤害 / bullet_amount，每次射击扣除一发子弹
     "bullet_amount": 1,
     // 伤害
-    "damage": 9,
+    "damage": 20,
     // 曳光弹间隔数量，没有此字段则不发射曳光弹
     // 设置为 0 则是每发都是曳光弹
     "tracer_count_interval": 0,
     // 额外伤害的内容，为空则表示没有任何额外伤害计算内容
     "extra_damage": {
       // 护甲穿透率，默认为 0，也就是没有穿甲伤害
-      "armor_ignore": 0.25,
+      "armor_ignore": 0.5,
       // 爆头伤害 x1.5
-      "head_shot_multiplier": 1.5,
+      "head_shot_multiplier": 2,
       // 距离-伤害分段常函数
       "damage_adjust": [
-        {"distance": 30, "damage": 9},
-        {"distance": 60, "damage": 7.5},
+        {"distance": 30, "damage": 20},
+        {"distance": 60, "damage": 18},
         // 如果你忘记写这个无穷，那么超过上述距离，我就认为是 0
-        {"distance": "infinite", "damage": 6}
+        {"distance": "infinite", "damage": 17}
       ]
     },
     // 速度 m/s
@@ -81,7 +81,7 @@
     // 点燃时间，默认为 2 秒，仅用于实体
     "ignite_entity_time": 2,
     // 穿透数
-    "pierce": 1
+    "pierce": 2
     // 储存爆炸的相关数据，如果没有的话会有一套默认的配置
     // "explosion": {
       // 是否爆炸，默认为 false，如果希望默认爆炸则设置为 true
