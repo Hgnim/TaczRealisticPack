@@ -29,8 +29,8 @@
       "armor_ignore": 0.25,
       "head_shot_multiplier": 1.5,
       "damage_adjust": [
-        {"distance": 20, "damage": 38},
-        {"distance": 50, "damage": 36},
+        {"distance": 20, "damage": 40},
+        {"distance": 50, "damage": 37},
         {"distance": "infinite", "damage": 34}
       ]
     },
