@@ -2,7 +2,7 @@
   "ammo": "tacz:45acp",
   "rpm": 660,
   "bullet": {
-    "life": 0.55,
+    "life": 2.55,
     "bullet_amount": 1,
     "damage": 16,
     "tracer_count_interval": 0,

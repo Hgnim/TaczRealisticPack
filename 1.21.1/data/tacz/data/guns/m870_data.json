@@ -9,17 +9,17 @@
   "bolt": "manual_action",
   "rpm": 180,
   "bullet": {
-    "life": 0.6,
-    "bullet_amount": 9,
-    "damage": 63,
+    "life": 2.6,
+    "bullet_amount": 15,
+    "damage": 120,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.25,
       "head_shot_multiplier": 1.33,
       "damage_adjust": [
-        {"distance": 18, "damage": 63},
-        {"distance": 32, "damage": 61},
-        {"distance": "infinite", "damage": 58}
+        {"distance": 18, "damage": 105},
+        {"distance": 32, "damage": 90},
+        {"distance": "infinite", "damage": 75}
       ]
     },
     "speed": 150,
@@ -80,11 +80,11 @@
     ]
   },
   "inaccuracy": {
-    "stand": 3.65,
-    "move": 3.7,
-    "sneak": 3.65,
-    "lie": 3.5,
-    "aim": 3.5
+    "stand": 2.65,
+    "move": 2.7,
+    "sneak": 2.65,
+    "lie": 2.5,
+    "aim": 2.5
   },
   "melee": {
     "distance": 1.25,

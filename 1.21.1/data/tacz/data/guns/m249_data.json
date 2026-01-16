@@ -9,7 +9,7 @@
   "bolt": "open_bolt",
   "rpm": 750,
   "bullet": {
-    "life": 1.0,
+    "life": 3.0,
     "bullet_amount": 1,
     "damage": 19,
     "tracer_count_interval": 0,

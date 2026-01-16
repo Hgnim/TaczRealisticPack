@@ -9,7 +9,7 @@
   "bolt": "manual_action",
   "rpm": 171,
   "bullet": {
-    "life": 0.9,
+    "life": 2.9,
     "bullet_amount": 1,
     "damage": 80,
     "tracer_count_interval": 0,

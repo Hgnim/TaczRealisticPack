@@ -4,7 +4,7 @@
   "ammo_amount": 1,
   "bolt": "open_bolt",
   "bullet": {
-    "life": 5,
+    "life": 7,
     "bullet_amount": 1,
     "damage": 10,
     "extra_damage": {

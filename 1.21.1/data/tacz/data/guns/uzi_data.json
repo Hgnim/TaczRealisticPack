@@ -2,7 +2,7 @@
   "ammo": "tacz:9mm",
   "rpm": 600,
   "bullet": {
-    "life": 0.65,
+    "life": 2.65,
     "bullet_amount": 1,
     "damage": 10,
     "tracer_count_interval": 0,

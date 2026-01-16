@@ -28,7 +28,7 @@
     "empty_xmag_3_cooldown": 3.38
   },
   "bullet": {
-    "life": 0.9,
+    "life": 2.9,
     "bullet_amount": 1,
     "damage": 16,
     "tracer_count_interval": 0,

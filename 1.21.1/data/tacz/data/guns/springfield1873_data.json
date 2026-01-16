@@ -9,7 +9,7 @@
   ],
   "rpm": 90,
   "bullet": {
-    "life": 0.8,
+    "life": 2.8,
     "bullet_amount": 1,
     "damage": 70,
     "tracer_count_interval": 0,

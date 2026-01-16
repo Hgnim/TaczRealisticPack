@@ -2,17 +2,17 @@
   "ammo": "tacz:12g",
   "rpm": 150,
   "bullet": {
-    "life": 0.3,
-    "bullet_amount": 16,
-    "damage": 160,
+    "life": 2.3,
+    "bullet_amount": 18,
+    "damage": 180,
     "tracer_count_interval": 0,
     "extra_damage": {
       "armor_ignore": 0.33,
       "head_shot_multiplier": 1.25,
       "damage_adjust": [
-        {"distance": 5, "damage": 160},
-        {"distance": 9, "damage": 100},
-        {"distance": "infinite", "damage": 80}
+        {"distance": 8, "damage": 162},
+        {"distance": 16, "damage": 144},
+        {"distance": "infinite", "damage": 126}
       ]
     },
     "speed": 120,
@@ -87,11 +87,11 @@
     ]
   },
   "inaccuracy": {
-    "stand": 4.5,
-    "move": 4.75,
-    "sneak": 4,
-    "lie": 4,
-    "aim": 4
+    "stand": 5.5,
+    "move": 5.75,
+    "sneak": 5,
+    "lie": 5,
+    "aim": 5
   },
   // 近战相关
   "melee": {
